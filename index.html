@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--  manejo y configuración del caché del equipo para esta página -->
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+
+    <!-- "viewport"  permite tomar y configura la pantalla --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Mecatrónica</title>
+
+    <!--  Definiciones ícono favorito --- favicon.ico --->
+    <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="./imagenes/icon/favicon.ico" type="image/x-icon"> 
+
+    <link rel="apple-touch-icon" sizes="120x120" href="./imagenes/icon/apple-touch-icon.png">
+    <link rel="manifest" href="./imagenes/icon/site.webmanifest">
+    <link rel="mask-icon" href="./imagenes/icon/safari-pinned-tab.svg" color="#5bbad5">
+
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="./css/styles.css?n=0">
+    <script src="./js/script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="imagenes/logo_udec_3.png" >    
+        <h1>CUBIERTA AUTOMATIZADA</h1>
+        <h2>Ingeniería Mecatrónica</h2> 
+        <br><hr><br>
+    </header>
+
+    <nav> 
+        <ul> 
+           <li><a href="index.html">Inicio</a></li> 
+           <li><a href="Glosario_algoritmos.html">Glosario Ingeniería</a></li> 
+           <li><a href="GLOSARIO_FUNDAMENTOS_DE_INGENIERIA.html">Glosario Algoritmos</a></li> 
+           <li><a href="TEORIA_DE_SISTEMAS.html">Glosario TGS</a></li> 
+        </ul>  
+     </nav> 
+
+     <br><hr><br>
+     <p class="DefProyecto">Este proyecto tiene como objetivo principal el diseño, desarrollo e implementación de cubiertas automatizadas para espacios abiertos, con el fin de ofrecer soluciones innovadoras y sostenibles para la proteccion de la luz solar, la temperatura ambiente y la protección contra las condiciones climáticas que nos generen problemas en nuestras viviendas. Las estructuras estarán diseñadas para adaptarse de manera flexible a una amplia variedad de estructuras, como terrazas, patios, jardines y otros espacios par el uso comercial, brindando así una solución inteligente y funcional tanto para viviendas como para instalaciones en las que se requiera.</p>
+     <img id="imagen_articulo1" src="imagenes/cubierta_curva_.png">
+     <br><hr><br>
+
+    <!-- Tabla de Contenidos -->
+    <DIV id="tabla-contenidos">
+        <h2>Contenido</h2>
+        <ul>
+            <li><a href="#objetivos">OBJETIVOS</a></li>
+            <li><a href="#justificacion">1. JUSTIFICACION</a>
+            <ul>
+                <li><a href="#situacion-problematica">1.1. Situación Problema</a></li>
+                <li><a href="#analisis-situacion-actual">1.2. Análisis de la situación actual</a>
+                <ul>
+                    <li><a href="#Estudios-preliminares">1.2.1. Estudios preliminares</a></li>
+                    <li><a href="#Instrumentos-para-investigacion">1.2.2.	Instrumentos para investigación y levantamiento de información</a></li>
+                    <li><a href="#Encuesta">1.2.3.	Encuesta</a></li>
+                    <li><a href="#Conclusiones-encuesta">1.2.4.	Conclusiones de la encuesta</a></li>
+                    <li><a href="#Diagrama-Espina-de-Pescado">1.2.5.	Diagrama Espina de Pescado</a></li>
+                </ul></li>
+            </ul></li>
+            <li><a href="#marco-teorico">2.	MARCO TEORICO CONCEPTUAL</a>
+            <ul>
+                <li><a href="#teoria-de-proyectos">2.1.Conceptos y terminología asociada con el proyecto</a></li>
+                <li><a href="#normativa-actual">2.2. Normativa aplicable al proyecto</a></li>
+            </ul></li>
+            <li><a href="#Disciplinas">3. DISCIPLINAS QUE INTERVIENEN EN EL PROYECTO</a></li>
+            <li><a href="ingenierias-presentadas-en-el-proyecto">3.1 Ingenierias presentadas en el proyecto</a></li>
+      
+            <li><a href="#propuesta">4. PROPUESTA</a></li>
+            <li><a href="#Referencias-Bibliográficas">5. Referencias Bibliográficas</a>
+
+        </ul>
+    </DIV>
+
+    <!-- Contenido Principal -->
+    <main>
+        <section id="objetivos">
+            <h2 class="Titulo1">Objetivo General</h2>
+            <!-- ---------------------------------------------->
+            <p class="Parrafo1">Desarrollar una solución innovadora de cubiertas automatizadas que proporcionen protección eficiente contra las condiciones del tiempo (lluvia, sol y polvo) en diversos espacios, utilizando un sistema automatizado que se despliega y recoge según las necesidades del usuario, optimizando el uso del espacio, reduciendo intervención manual y garantizando la funcionalidad. El sistema debe ser fácil de operar, contar con un diseño ligero y ofrecer una mayor eficiencia en la protección de vehículos, patios, muebles y otros espacios</p>
+                <h3 class="Titulo2">Objetivos Especificos</h3>
+                <!-- ---------------------------------------------->
+                <p class="Parrafo1">1.)Cubrir la necesidad de proteger a las personas de la lluvia, sol y el polvo en diversos espacios usando una cubierta automatizada que se despliega según la necesidad de el cliente.
+                    <p class="Parrafo1">2.)	Ahorrar espacio al momento que se requiera con una cubierta plegable.
+                        <p class="Parrafo1">3.)	Facilitar el uso y operación de cubiertas automáticas, usando algoritmos programados en un controlador o usando lógica cableada.
+                            <p class="Parrafo1">4.)	Hacer una cubierta donde se necesite la mínima manipulación u operación por el cliente, que funcione de forma automática.
+                                <p class="Parrafo1">5.)	Proteger carros, patios de restaurantes, bicicletas, muebles etc. lo que se desee, de aspectos climáticos como la lluvia, sol y polvo, siempre y cuando este bajo el área de la cubierta automatizada. 
+                                    <p class="Parrafo1">6.)	Evitar el uso de estructuras pesadas y fijas para la construcción de una cubierta.
+                                        <p class="Parrafo1">7.)	Dar versatilidad en el armado y eficiencia en el espacio además de su funcionamiento automático.</p>
+                
+              
+            </ul>
+            <button onclick="scrollToTop()">Volver a la Tabla de Contenidos</button>
+        </section>
+
+        <section id="justificacion">
+            <h2 class="Titulo1">1. Justificación</h2>
+            <!-- ---------------------------------------------->
+
+            <article id="situacion-problema" class="SubCapituloTema">
+                <h3 class="Subtitulo1">1.1. Situacion problema</h3>
+                <!-- ---------------------------------------------->
+
+                <p class="Parrafo1">Es un desafío cubrir la necesidad de las personas en todo el territorio nacional para que se beneficien de una cubierta automatizada, los retos de innovación respecto a tecnologías actuales son fascinantes, la tecnología sigue avanzando y nada la detiene. La creación de una cubierta plegable que funciona de forma automática mediante mecanismos y automatismos diseñados, acompañados de una secuencia de algoritmos programados en una tarjeta electrónica o por lógica cableada en un reto maravilloso.</p>
+               
+
+            </article>
+
+            <article id="analisis-situacion-actual" class="SubCapituloTema">
+                <h3 class="Subtitulo1">1.2. Análisis de la situación actual</h3>
+                <!-- ---------------------------------------------->
+
+                <p> •	Aspectos climáticos desfavorecen el estado o el ambiente de sitios descubiertos donde la gente suele compartir como restaurantes, patios, piscinas etc.</p>
+                <p> •	Restaurantes donde las mesas están descubiertas pierden clientela en climas desfavorables.</p>
+                <p> •	Existen más sitios descubiertos que cubiertos para el resguardo de vehículos generando el deterioro rápido de su pintura y otros aspectos.</p>
+                <p> •	Actual mente la gente tiene costos altos en construcción de estructuras fijas y pesadas para techar parqueaderos, garajes, patios, restaurantes y diversos sitios los cuales quieran proteger.</p>
+
+           
+                <article id="Estudios_Preliminares" class="SubCapituloTema">   
+                    <h3 class="Subtitulo1">1.2.1 Estudios preliminares</h3> 
+                    <!-- ---------------------------------------------->
+
+                    <P><B>BENEFICIOS DE UNA CUBIERTA AUTOMATIZADA</B></P>
+                    <P>•	Reducción de costos al momento de adquirir techo automatizado. </P>
+                        <P>•	Uso fácil Y montaje rápido. </P>
+                        <P>•	Cuidado y limpieza de su vehículo. </P>
+                        <P>•	Ahorra espacio en momentos de climas favorables. </P> 
+                        <P>•	Espacio libre al momento que quiera, se puede recoger la cubierta cuando lo desee.
+                        </P>
+
+
+                    <article id=" Instrumentos_para_investigación_y_levantamiento _de_información" class="SubCapituloTema">   
+                        <h3 class="Subtitulo1">1.2.2  Instrumentos para investigación y levantamiento de información</h3> 
+                        <!-- ---------------------------------------------->
+
+                        <article id="Encuesta" class="SubCapituloTema">   
+                            <h3 class="Subtitulo1">1.2.3 Encuesta</h3> 
+                            <!-- ---------------------------------------------->
+                             <p>Esta encuesta nos ayuda a proporcionar mayor informacion valiosa para poder tener mejoras en nuestro proyecto, se realizaron varias preguntas para obtener mejores resultados al momento de idealizar la cubierta.</p>
+                             <button onclick="https://forms.gle/y3RvsJsLiZrVK76n9">link de encuesta</button>
+                             <p>https://forms.gle/y3RvsJsLiZrVK76n9</p>
+                             
+                             
+
+                            <article id="Conclusiones_de_la_Encuesta" class="SubCapituloTema">   
+                                <h3 class="Subtitulo1">1.2.4 Conclusiones de la Encuesta</h3> 
+                                <!-- ---------------------------------------------->
+<p>En conclusion de la encuesta nos dimos cuenta que:</p>
+                            
+                            <p>• La mayoria de personas que la respondieron tienen una edad de 25 a 34 años, que son las personas que hasta ahora estan empezando a adquirir su vivienda y desconocen mucho del tema.</p>
+                            <p>• Las personas que conocen del tema, en su mayoria, tienen una cubierta manual, esta cubierta es muy simple al momento de manipularla ya que su apertura y cierre se hace con piñones o solo con una manibela.</p>
+                            <p>• Las personas buscan obtener de estas cubiertas que haya facilidad de uso y una muy buena funcionalidad, teniendo en cuenta las fuertes lluvias y los dias muy asoliados.</p>
+                            <p>• Las cubiertas tradicionales pueden ser mas economicas inicialmente, pero presentan un desgaste mas rapido debido a que estan hechas de materiales mas fragiles. En cambio, una cubierta automatizada representa una inversion a largo plazo, ya que, aunque su costo inicial puede ser mas alto, esta diseñada para ser mas duradera, resistente y requiere menos mantenimiento. Esto no solo reduce los costos a largo plazo, sino que tanbien ofrece una mayor comodidad y eficiencia en su uso. </p>
+
+
+                                <article id="Diagrama de Pescado" class="SubCapituloTema">   
+                                    <h3 class="Subtitulo1">1.2.5 Diagrama de Pescado</h3> 
+                                    <!-- ---------------------------------------------->
+                <p>Falla en el sistema de automatización de la cubierta</p>
+                <img src="imagenes/Imagen4.png" alt="">
+           
+            <button onclick="scrollToTop()">Volver a la Tabla de Contenidos</button>
+        </section>
+
+
+
+        <section id="marco-teorico">
+            <h2 class="Titulo1">2.	MARCO TEORICO</h2>
+            <!-- ---------------------------------------------->
+
+            <article id="teoria-de-proyectos" class="SubCapituloTema">
+                <h3 class="Subtitulo1">2.1.Conceptos y terminología asociada con el proyecto</h3>
+            <!-- ---------------------------------------------->
+
+                <p><h3><b>Conceptos</b></h3></p>
+            <p></p><b>•   Cubierta automatizada:</b> Sistema que permite abrir y cerrar una cubierta (techo o techo corredizo) de manera automática, mediante un control remoto, sensores o programación.
+                    <p></p><b>•   Actuadores:</b> Dispositivos que convierten la energía eléctrica en movimiento mecánico, encargados de abrir y cerrar la cubierta.
+                        <p></p><b> •    Sensores:</b> Dispositivos que detectan cambios en el entorno (luz, viento, lluvia, temperatura) y envían señales a un controlador para activar o desactivar la cubierta.
+                            <p></p><b> •	Controlador:</b> Dispositivo electrónico que recibe las señales de los sensores y envía comandos a los actuadores para controlar el movimiento de la cubierta.
+                                <p></p><b> •	Automatización:</b> Proceso de controlar un sistema o proceso con mínima intervención humana.
+                                    <p></p><b> •	Domótica:</b> Integración de tecnologías para controlar y automatizar una vivienda.</p>
+                                    <p><h3> <b>Terminología común: </b></h3></p>
+                                    <p><b>•	Motor: </b> Proporciona la energía necesaria para mover los actuadores.</p>
+                                    <p><b>•	Cremallera y piñón: </b>Mecanismo de transmisión que convierte el movimiento rotatorio del motor en movimiento lineal de la cubierta.</p>
+                                    <p><b>•	Guías:</b>Elementos que guían el movimiento de la cubierta.</p>
+                                    <p><b>•	Paneles: </b>Elementos que conforman la cubierta (pueden ser de vidrio, policarbonato, etc.).</p>
+                                    <p><b>•	Juntas de estanqueidad: </b>Aseguran que la cubierta sea impermeable.</p>
+                                    <p><b>•	Sistema de seguridad:</b>Incluye elementos como finales de carrera, sensores de obstáculos y sistemas de bloqueo.</p>
+                                    <p><b>•	Interfaz de usuario:</b>: Permite al usuario controlar la cubierta a través de un panel táctil, aplicación móvil o control remoto.</p>
+            </article>
+
+            <article id="normativa-actual" class="SubCapituloTema">
+                <h3 class="Subtitulo1">2.2. Normativa aplicable al proyecto</h3>
+            <!-- ---------------------------------------------->
+
+            <p>El proyecto cubierta automatizada integra ramas como la electricidad, electrónica, control, robótica; En estas ramas el proyecto se regula bajo unas normas técnicas para que las diversas instalaciones sean seguras para las personas además de su efectividad.
+            <p></p><B>• RETIE (reglamento técnico de instalaciones eléctricas):</B>Es un documento técnico-legal para Colombia expedido por el ministerio de Minas y energía.
+                En el podemos encontrar los parámetros más importantes que deben ser tenidos en cuenta al momento de diseñar, construir, mantener y modificar una instalación eléctrica en Colombia de la manera más segura posible (Algunos le conocen como normas de electricidad en Colombia), si bien este RETIE no se trata de una guía de diseño eléctrico ya que esta labor debe ser llevada a cabo por personal competente que ponga en práctica los cálculos e ingeniería necesaria según lo establecido en el, es importante tener en cuenta que este es de “OBLIGATORIO” cumplimiento en este país.
+                El Reglamento Técnico de Instalaciones Eléctricas - RETIE fue expedido en su última versión mediante la Resolución 40117 del 2 de abril de 2024, y se encuentra contenido en cuatro libros que forman parte integral del acto administrativo, precisando que la resolución en mención empezará a regir a partir de su publicación en el Diario Oficial.
+                cumpliendo este reglamento aseguramos tanto la seguridad de las personas como la efectividad de las instalaciones.
+                <p class="Parrafo2"></p><B>ASPECTO MECÁNICO</B> 
+                <p class="Parrafo2"></p><b>•NORMA NSR-10</b> La normativa principal que regula la certificación de estructuras metálicas en Colombia es el Reglamento Colombiano de Construcción Sismo Resistente (NSR-10), el cual establece los requisitos técnicos y las condiciones que deben cumplir las estructuras para garantizar su resistencia frente a sismos. El NSR-10 define los métodos de diseño y construcción que deben seguirse, así como los estándares de calidad y seguridad.
+                La certificación de las estructuras metálicas es de carácter obligatorio y jurí­dico según la norma sismorresistente NSR10 título I, F y código colombiano de puentes CCP14. Toda estructura metálica debe ser supervisada por un Ingeniero certificado por la asociación colombiana de soldadura ACOSEND, y/o por un inspector certificado en soldadura CWI (certified welding inspector). Esta persona es la encargada de, mediante acta, afirmar que ejerció un control y juzgó el cumplimiento de un programa de gestión y aseguramiento de la calidad específico, de manera independiente al fabricante. Los códigos internacionales como el AWS D1.1., AWS D1.3, para estructuras metálicas, y AWS D.1.5, para puentes metálicos referidos por la NSR10 y CCP14, hacen amplio énfasis en la documentación de la inspección visual.
+                Además del NSR-10, existen otras normas y estándares que complementan el proceso de certificación de estructuras metálicas. Algunas de estas normas son:
+                <p class="Parrafo2"></p><b>Norma Técnica Colombiana NTC 5613:</b> Establece los requisitos y procedimientos para la fabricación y montaje de estructuras metálicas, incluyendo aspectos como la soldadura, los perfiles estructurales y las pruebas de calidad.
+                <p class="Parrafo2"></p><b>Norma Técnica Colombiana NTC 5678:</b> Establece los criterios para el diseño de estructuras metálicas y los métodos de cálculo que deben seguirse.
+                <p class="Parrafo2"></p><b>Norma Técnica Colombiana NTC 6063:</b> Define los requisitos de seguridad para la instalación de estructuras metálicas en edificaciones.
+                 La certificación de estructuras metálicas en Colombia se realiza a través de entidades autorizadas y acreditadas, como los Organismos de Control Acreditados (OCA). Estos organismos son responsables de verificar y evaluar el cumplimiento de las normas y requisitos establecidos para la certificación.
+                Es importante destacar que la certificación de estructuras metálicas no solo es obligatoria para garantizar la seguridad de las construcciones, sino que también permite asegurar la calidad de los materiales utilizados y la correcta ejecución de los procesos constructivos. Esto contribuye a prevenir accidentes, minimizar los riesgos y promover la confianza en las construcciones en Colombia.
+                </p>
+        </article>
+
+            <button onclick="scrollToTop()">Volver a la Tabla de Contenidos</button>
+
+            <article>
+                <section id="Diciplinas_en_el_Proyecto">
+                    <h2 class="Titulo1">3.	DISCIPLINAS QUE INTERVIENEN EN EL PROYECTO </h2>
+                    <!-- ---------------------------------------------->
+               
+                    <article id="normativa-actual" class="SubCapituloTema">
+                        <h3 class="Subtitulo1">2.1. INGENIERIAS PRESENTADAS EN EL PROYECTO</h3>
+                    <!-- ---------------------------------------------->
+            
+                <p><b>INGENIERÍA DE CONTROL Y AUTOMATIZACIÓN:</b> La ingeniería es el estudio y la aplicación de las distintas ramas de la tecnología. El profesional en este ámbito recibe el nombre de ingeniero.
+                    Esta  ingeniería de control y automatización, se refiere al uso de tecnologías para realizar tareas con mínima intervención humana. Esto incluye sistemas que pueden manejar, controlar o monitorear procesos automáticamente.
+                    </p>
+                    <p><b>INGENIERÍA MECÁNICA:</b>  Diseño de mecanismos en la apertura y cierre del techo.</p>
+                    <p><b>INGENIERÍA ELECTRÓNICA: </b>Desarrollar circuitos y componentes eléctricos para efectuar el sistema automatizado.</p>
+                    <p><b>INGENIERÍA DE SISTEMAS:</b>Programación de software y algoritmos para el control y la automatización del sistema.</p>
+                    <p><b>INGENIERÍA CIVIL:</b>Desarrollo de estructuras y resistencias del techo.</p>
+
+            </article>
+
+            <button onclick="scrollToTop()">Volver a la Tabla de Contenidos</button>
+
+
+            <section id="PROPUESTA">
+                <h2 class="Titulo1">4.	PROPUESTA</h2>
+                <!-- ---------------------------------------------->
+
+                <P></P>
+
+
+                <section id="#Referencias-Bibliográficas">
+                    <h2 class="Titulo1">5. Referencias bibliograficas </h2>
+                    <!-- ---------------------------------------------->
+
+        </section>
+
+
+
+    </main>
+</body>
+</html>
